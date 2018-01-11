@@ -22,7 +22,7 @@ public class MainActivity  extends Activity {
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.changeText:
-                editText.setText("Amit Siddhpura");
+                editText.setText("Amit Siddhpura")
                 break;
             case R.id.switchActivity:
                 Intent intent = new Intent(this, SecondActivity.class);
